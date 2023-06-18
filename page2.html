@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="page2.css">
+        <title>DOM JAVASCRIPT</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h3>W.FORM</h3>
+                <h2>Cetak identitas kamu disinii</h2>
+            </div>
+            <form action="">
+                <label for="nama">Nama</label><br>
+                <input type="text" placeholder="Nama anda" id="nama"><br><br>
+                <label for="nik">NIK</label><br>
+                <input type="text" placeholder="NIK anda" id="nik"><br>
+                <p>Jenis Kelamin:</p>
+                <input type="radio" name="JK" id="pria" vlaue="pria">
+                <label for="programming">Pria</label><br>
+                <input type="radio" name="JK" id="wanita" value="wanita">
+                <label for="programming">Wanita</label><br><BR>
+                <label for="">Alamat</label><br>
+                <textarea placeholder="Tulis Alamat mu disini" name="alamat" id="alamat" cols="30" rows="5"></textarea><br><br>
+                <input type="date" id="tanggalInput"><br><br>
+                <div class="button">
+                <button type="submit" onclick="kirimData()">Kirim</button></div>
+            </form>
+        </div>
+
+        <script src="page2.js"></script>
+    </body>
+</html>
